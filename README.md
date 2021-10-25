@@ -1,0 +1,1 @@
+# mediapipe-selfie-segmentation-react
