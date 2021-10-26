@@ -6,13 +6,60 @@ canvas {
   position: absolute;
   width: 1280px;
   height: 720px;
-  top: 0px;
-  left: 0px;
+}
+
+.video {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1280px;
+  height: 720px;
+  left: 130px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.virtual-bg-vid {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.color-buttons {
+  position: relative;
+  display: flex;
+  top: 800px;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn {
+  margin-left: 10px !important;
+}
+
+.Yellow {
+  background-color: yellow;
+}
+
+.Red {
+  background-color: red;
+}
+
+.Blue {
+  background-color: blue;
+}
+
+.White {
+  background-color: white;
+}
+
+.Black {
+  background-color: black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
